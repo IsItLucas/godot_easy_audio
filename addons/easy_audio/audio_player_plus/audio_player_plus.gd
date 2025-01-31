@@ -6,6 +6,7 @@ class_name AudioStreamPlayerPlus extends AudioStreamPlayer
 ## This node's functionalities and syntax was made thinking of the usage with the Audio autoload from GEA - Godot Easy Audio.
 
 
+## Emitted when [method fade_linear] or [method fade_db] finish.
 signal fade_completed
 
 
