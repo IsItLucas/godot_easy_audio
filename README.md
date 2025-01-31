@@ -17,6 +17,12 @@ With GEA, you can smoothly fade, crossfade, and control audio playback effortles
 3. Enable the plugin in `Project > Project Settings > Plugins`.
 
 
+## ⚙️ Configuration
+1. Go to `Project > Project Settings > Godot Easy > Audio`.
+2. Customize the addon's behaviour as you like.
+3. You're all set! ✅🎉
+
+
 ## 🚀 Getting Started
 
 ### Playing Music
