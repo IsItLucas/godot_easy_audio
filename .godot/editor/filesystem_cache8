@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1738348040
+::res://::1738350790
 default_bus_layout.tres::AudioBusLayout::6843457451318695851::1738348040::0::1::::<><><><>::
 ::res://addons/::1738029210
-::res://addons/easy_audio/::1738349786
-autoload.gd::GDScript::5480770374789520857::1738349357::0::1::::<>Node<><><>::
+::res://addons/easy_audio/::1738350460
+autoload.gd::GDScript::5480770374789520857::1738350460::0::1::::<>Node<><><>::
 helper.gd::GDScript::4031702102709233773::1738003752::0::1::::AudioHelper<>Node<><><>::
 icon.png::CompressedTexture2D::7684167712338067167::1738003560::1738012110::1::::<><><>9f89e23500932f7f755fe500adf193fb<>res://.godot/imported/icon.png-98cee53fb43179f01a5a9aa834668f7d.ctex::
 music_1.mp3::AudioStreamMP3::8506186382017095483::1738349536::1738349796::1::::<><><>8a941e342ba2a7cd9bb249f2482e82b7<>res://.godot/imported/music_1.mp3-c1ee6946b4f240135580a04f171595da.mp3str::
@@ -30,5 +30,5 @@ func_set.svg::Image::3879604340026706619::1737411422::1738003653::1::::<><><>bcc
 keyword.svg::Image::6207690078285442569::1737411422::1738003653::1::::<><><>2586892ba495885fc72ab6177dd0ff7d<>res://.godot/imported/keyword.svg-15ea12cc9eda85ed385533fe57e3bba8.image::
 property.svg::Image::7275546524774189827::1737411422::1738003653::1::::<><><>b334532378d65e2af4b4478888db5f9d<>res://.godot/imported/property.svg-9e228499f30651faad74aa99e4499d7e.image::
 signal.svg::Image::3303164025475872126::1737411422::1738003653::1::::<><><>cf93c2d0709abbcb0918cbcfe3da4bf9<>res://.godot/imported/signal.svg-97182e1498b520a1ff5b8b9017c3b480.image::
-::res://ignores/::1738349360
-scene.tscn::PackedScene::5656593132902546165::1738349360::0::1::::<><><><>::
+::res://ignores/::1738350820
+scene.tscn::PackedScene::5656593132902546165::1738350820::0::1::::<><><><>::
