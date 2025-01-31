@@ -4,11 +4,11 @@ With GEA, you can smoothly fade, crossfade, and control audio playback effortles
 
 
 ## 🌟 Features
-* 🎶 Music Management: Play, stop, pause, and crossfade between tracks.
-* 🔊 Sound Effects System: Load and play sound effects efficiently with caching.
-* ⚙️ Customizable Settings: Adjust volume, pitch, persistence, and playback speed.
-* 🔄 Seamless Integration: Built on AudioStreamPlayer with extended capabilities.
-* 📡 Signal-Based Events: Detect when sounds finish or transitions complete.
+* 🎶 **Music Management**: Play, stop, pause, and crossfade between tracks.
+* 🔊 **Sound Effects System**: Load and play sound effects efficiently with caching.
+* ⚙️ **Customizable Settings**: Adjust volume, pitch, persistence, and playback speed.
+* 🔄 **Seamless Integration**: Built on AudioStreamPlayer with extended capabilities.
+* 📡 **Signal-Based Events**: Detect when sounds finish or transitions complete.
 
 
 ## 📥 Installation
