@@ -1,6 +1,6 @@
-# GEA - Godot Easy Audio 🎵🚀
+# GEA - Godot Easy Audio 🎵🔊🚀
 GEA (Godot Easy Audio) is a simple and powerful addon for the Godot Engine that enhances audio management by providing an easy way to handle music, sound effects, and transitions.
-With GEA, you can smoothly fade, crossfade, and control audio playback effortlessly.
+With GEA, you can smoothly fade, crossfade, and control audio playback effortlessly. 🎯🛠️🚀
 
 
 ## 🌟 Features
