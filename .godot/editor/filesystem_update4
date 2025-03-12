@@ -1,6 +1,1 @@
 res://addons/easy_audio/example/example.tscn
-res://addons/easy_audio/example/example.gd
-res://addons/easy_audio/music.gd
-res://addons/easy_audio/audio.gd
-res://addons/easy_audio/plugin.gd
-res://addons/easy_audio/plugin.cfg

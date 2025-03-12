@@ -14,7 +14,7 @@ config/name="Easy Audio"
 config/tags=PackedStringArray("addon")
 run/main_scene="uid://m4aj1cnn7nor"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="uid://dhqjecg3v7uq6"
+config/icon="uid://cs5plkix7gp57"
 
 [autoload]
 
