@@ -1,0 +1,193 @@
+[gd_scene load_steps=3 format=3 uid="uid://m4aj1cnn7nor"]
+
+[ext_resource type="Script" uid="uid://c2wqn2q2d2pju" path="res://addons/easy_audio/example/example.gd" id="1_xcjye"]
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_xcjye"]
+color = Color(1, 1, 1, 1)
+grow_begin = 16.0
+grow_end = 16.0
+
+[node name="ExampleScene" type="CanvasLayer"]
+script = ExtResource("1_xcjye")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SoundsContainer" type="VBoxContainer" parent="HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+alignment = 1
+
+[node name="SoundContainer" type="HBoxContainer" parent="HBoxContainer/SoundsContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/SoundsContainer/SoundContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Sound to Play:"
+
+[node name="SoundOptionButton" type="OptionButton" parent="HBoxContainer/SoundsContainer/SoundContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+selected = 0
+item_count = 4
+popup/item_0/text = "Explosion"
+popup/item_0/id = 0
+popup/item_1/text = "Hit"
+popup/item_1/id = 1
+popup/item_2/text = "Jump"
+popup/item_2/id = 2
+popup/item_3/text = "Select"
+popup/item_3/id = 3
+
+[node name="Separator1" type="HSeparator" parent="HBoxContainer/SoundsContainer"]
+layout_mode = 2
+theme_override_constants/separation = 16
+theme_override_styles/separator = SubResource("StyleBoxLine_xcjye")
+
+[node name="PersistentCheckbox" type="CheckBox" parent="HBoxContainer/SoundsContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Persistent?"
+
+[node name="PitchContainer" type="HBoxContainer" parent="HBoxContainer/SoundsContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/SoundsContainer/PitchContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Pitch Scale:"
+
+[node name="AudioPitchSlider" type="HSlider" parent="HBoxContainer/SoundsContainer/PitchContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 2.0
+step = 0.1
+value = 1.0
+tick_count = 3
+ticks_on_borders = true
+
+[node name="VolumeContainer" type="HBoxContainer" parent="HBoxContainer/SoundsContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/SoundsContainer/VolumeContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Volume Linear:"
+
+[node name="AudioVolumeSlider" type="HSlider" parent="HBoxContainer/SoundsContainer/VolumeContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 2.0
+step = 0.1
+value = 1.0
+tick_count = 3
+ticks_on_borders = true
+
+[node name="Separator2" type="HSeparator" parent="HBoxContainer/SoundsContainer"]
+layout_mode = 2
+theme_override_constants/separation = 16
+theme_override_styles/separator = SubResource("StyleBoxLine_xcjye")
+
+[node name="SoundButton" type="Button" parent="HBoxContainer/SoundsContainer"]
+custom_minimum_size = Vector2(105, 40)
+layout_mode = 2
+text = "Play Sound"
+
+[node name="ClearButton" type="Button" parent="HBoxContainer/SoundsContainer"]
+custom_minimum_size = Vector2(105, 40)
+layout_mode = 2
+text = "Clean Up Sounds"
+
+[node name="MusicContainer" type="VBoxContainer" parent="HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+alignment = 1
+
+[node name="TransitionContainer" type="HBoxContainer" parent="HBoxContainer/MusicContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/MusicContainer/TransitionContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Transition:"
+
+[node name="TransitionOptionButton" type="OptionButton" parent="HBoxContainer/MusicContainer/TransitionContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+selected = 0
+item_count = 3
+popup/item_0/text = "None"
+popup/item_0/id = 0
+popup/item_1/text = "Cross Fade"
+popup/item_1/id = 1
+popup/item_2/text = "Fade Out"
+popup/item_2/id = 2
+
+[node name="Separator1" type="HSeparator" parent="HBoxContainer/MusicContainer"]
+layout_mode = 2
+theme_override_constants/separation = 16
+theme_override_styles/separator = SubResource("StyleBoxLine_xcjye")
+
+[node name="PitchContainer" type="HBoxContainer" parent="HBoxContainer/MusicContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/MusicContainer/PitchContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Pitch Scale:"
+
+[node name="MusicPitchSlider" type="HSlider" parent="HBoxContainer/MusicContainer/PitchContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 2.0
+step = 0.1
+value = 1.0
+tick_count = 3
+ticks_on_borders = true
+
+[node name="VolumeContainer" type="HBoxContainer" parent="HBoxContainer/MusicContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/MusicContainer/VolumeContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Volume Linear:"
+
+[node name="MusicVolumeSlider" type="HSlider" parent="HBoxContainer/MusicContainer/VolumeContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+max_value = 2.0
+step = 0.1
+value = 1.0
+tick_count = 3
+ticks_on_borders = true
+
+[node name="Separator2" type="HSeparator" parent="HBoxContainer/MusicContainer"]
+layout_mode = 2
+theme_override_constants/separation = 16
+theme_override_styles/separator = SubResource("StyleBoxLine_xcjye")
+
+[node name="MusicButton" type="Button" parent="HBoxContainer/MusicContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(105, 40)
+layout_mode = 2
+text = "Swap Music"
+
+[connection signal="pressed" from="HBoxContainer/SoundsContainer/SoundButton" to="." method="_on_sound_button_pressed"]
+[connection signal="pressed" from="HBoxContainer/SoundsContainer/ClearButton" to="." method="_on_clear_button_pressed"]
+[connection signal="pressed" from="HBoxContainer/MusicContainer/MusicButton" to="." method="_on_music_button_pressed"]

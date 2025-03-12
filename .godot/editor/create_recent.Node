@@ -1,2 +1,11 @@
-AudioStreamPlayerPlus
+HBoxContainer
+HSeparator
+Label
+HSlider
+CheckBox
+VBoxContainer
+OptionButton
+MenuButton
+Button
 AudioStreamPlayer
+CanvasLayer

@@ -1,5 +1,4 @@
-res://ignores/scene.tscn
-res://addons/easy_audio/autoload.gd
-res://addons/easy_audio/audio_player_plus/audio_player_plus.gd
-res://addons/easy_audio/audio_settings/audio_settings.gd
-res://default_bus_layout.tres
+res://addons/easy_audio/example/example.tscn
+res://addons/easy_audio/example/example.gd
+res://addons/easy_audio/music.gd
+res://addons/easy_audio/audio.gd
