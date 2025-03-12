@@ -25,6 +25,7 @@ size_flags_vertical = 4
 alignment = 1
 
 [node name="SoundContainer" type="HBoxContainer" parent="HBoxContainer/SoundsContainer"]
+visible = false
 layout_mode = 2
 
 [node name="Label" type="Label" parent="HBoxContainer/SoundsContainer/SoundContainer"]
