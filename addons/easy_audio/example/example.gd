@@ -56,8 +56,8 @@ func _on_music_button_pressed() -> void:
 	
 	# Get the music path.
 	var songs: Array[String] = [
-		"uid://dtgpv84op77ch",
-		"uid://dl4if5b70lhrm"
+		"uid://choe0cqhr07st",
+		"uid://b12xv5l80mq3b"
 	]
 	
 	# Play the song.
